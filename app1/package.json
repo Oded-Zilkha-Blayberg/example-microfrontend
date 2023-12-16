@@ -1,5 +1,5 @@
 {
-  "name": "example-microfrontend",
+  "name": "app1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,7 +25,7 @@
   "scripts": {
     "start": "webpack serve --open",
     "build": "webpack --config webpack.prod.js",
-    "serve": "serve dist -p 3002",
+    "serve": "serve dist -p 3001",
     "clean": "rm -rf dist"
   },
   "eslintConfig": {
