@@ -29,6 +29,7 @@ module.exports = {
             filename: 'remoteEntry.js',
             exposes: {
                 './CounterAppOne': './src/components/CounterAppOne',
+                './TextArea': './src/components/TextArea',
             },
             shared: {
                 ...deps,

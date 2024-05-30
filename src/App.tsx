@@ -1,8 +1,10 @@
 import React from 'react';
+import TextBox from './TextBox';
 // import logo from './logo.svg';
 // import './App.css';
 
 const CounterAppOne = React.lazy(() => import('app1/CounterAppOne'));
+const TextArea = React.lazy(() => import('app1/TextArea'));
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           Learn React
         </a>
         <CounterAppOne name='oded' />
+        <TextBox/>
+        <TextArea/>
       </header>
     </div>
   );
